@@ -21,7 +21,6 @@ Utiliza-se a hierarquia quando se tem objetos com características em comum.
 * Classe Mãe - chamada de superclasse possui características em comum que será herdada pela classe filha
 * Classe Filha - chamada de subclsse herda estado e comportamento de sua mãe, definindo apenas atributos e comportamentos que diferem
 
-#### Obs
 > Subclasses podem sobrescrever o comportamento de métodos que herdam da classe mãe, tanto para 
 > substituir o comportamento padrão ou melhorar com coisas adicionais.
 
