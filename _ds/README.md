@@ -44,6 +44,8 @@ Hash Tables
 
 
 #### References
-https://www.datacamp.com/tutorial/data-structures-python
-https://www.scaler.com/topics/data-structures-in-python/
-https://explorer.globe.engineer/?q=learn+data+structure+with+python#Operations
+<ul>
+<li><a>https://www.datacamp.com/tutorial/data-structures-python</a></li>
+<li><a>https://www.scaler.com/topics/data-structures-in-python/</a></li>
+<li><a>https://explorer.globe.engineer/?q=learn+data+structure+with+python#Operations</a></li>
+</ul>
