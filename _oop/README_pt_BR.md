@@ -27,11 +27,26 @@ Utiliza-se a hierarquia quando se tem objetos com características em comum.
 ## Pilares da OOP
 
 A programação orientada a objetos é baseada em quatro pilares, conceitos que diferenciam ela de
-outros paradigmas de programação: [Abstração](abstraction.py), [Encapsulamento](encapsulation.py),
-[Herança](inheritance.py) e [Polimorfismo](polimorfism.py)
+outros paradigmas de programação: [Abstração](_abstraction.py), [Encapsulamento](_encapsulation.py),
+[Herança](_inheritance.py) e [Polimorfismo](_polymorphism.py)
 
 
 ### Abstração
 
-A [Abstração](abstraction.py) um modelo de um objeto ou fenêmeno do mundo real, limitado a um contexto específico, representando
+A [Abstração](_abstraction.py) é um modelo de um objeto ou fenêmeno do mundo real, limitado a um contexto específico, representando
 detalhes relevantes para esse contexto omitindo o que não é.
+
+### Encapsulamento
+
+O [Encapsulamento](_encapsulation.py) é a habilidade de um objeto de escoder parte de seu estado e comportamentos de outros objetos, expondo somente uma interface limitada para o resto do programa. `Encapsular` significa torná-la `privada`, e por tanto acessível apenas por dentro dos métodos da sua própria classe.
+
+> Há um modo um pouco menos restritivo chamado `protegido` que torna um membro da classe disponível para subclasses também.
+
+
+### Polimorfismo
+
+O [Polimorfismo](_polymorphism.py) é a habilidade de um programa detectar a classe real de um objeto e chamar sua implementação mesmo quando seu tipo real é desconhecido do contexto atual.
+
+### Herança
+
+A [Herança](_inheritance.py) é a habilidade de construir novas classes em cima de classes já existentes.
