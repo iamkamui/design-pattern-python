@@ -33,19 +33,25 @@ The [queue](_queue.py) data structure in is used to store data in the First In F
 
 
 # Non-Linear Data Structures
-Heaps
-Graphs
-Trees
-Binary Trees
+> Non-Linear data structures are those where data items are not arranged in sequential manner. In these data structures, elements are stored in a hierarchical or a network-based structure that does not follow a sequential order.
+
+### Graphs
+[Graph](_graph.py) is a non linear data structure that consists of a set of vertices and a set of edges that connect them together. In a graph, vertices represent entities, while edges represent the relationships between them. Graphs are used to represent complex relationships between entities.
+
+### Trees
+[Tree](_tree.py) is a non linear data structure in which data is stored in a hierarchical structure. It is a collection of nodes connected by edges. Each node has a parent node and zero or more child nodes. The node that is present at the top of the hierarchy is called the root node.
 
 # Advanced Data Sctructures
-Hash Tables
+### Hash Tables
+[Hash](_hash.py) Is a data structure that efficiently stores and retrieves data in a way that allow for quick acces. It involves mapping data to a specific index in a hash table using a hash function that enables fast retrieval of information based on its key.
 
 
 
 #### References
 <ul>
-<li><a>https://www.datacamp.com/tutorial/data-structures-python</a></li>
-<li><a>https://www.scaler.com/topics/data-structures-in-python/</a></li>
-<li><a>https://explorer.globe.engineer/?q=learn+data+structure+with+python#Operations</a></li>
+<li><a href="https://www.datacamp.com/tutorial/data-structures-python">https://www.datacamp.com/tutorial/data-structures-python</a></li>
+<li><a href="https://www.scaler.com/topics/data-structures-in-python/">https://www.scaler.com/topics/data-structures-in-python/</a></li>
+<li><a href="https://explorer.globe.engineer/?q=learn+data+structure+with+python#Operations">https://explorer.globe.engineer/?q=learn+data+structure+with+python#Operations</a></li>
+<li><a href="https://www.prepbytes.com/blog/data-structure/non-linear-data-structur">https://www.prepbytes.com/blog/data-structure/non-linear-data-structure<a></li>
+<li><a href="https://www.geeksforgeeks.org/hashing-data-structure/">https://www.geeksforgeeks.org/hashing-data-structure/<a></li>
 </ul>
