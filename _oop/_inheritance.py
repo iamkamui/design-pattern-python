@@ -13,7 +13,7 @@ pt_BR:
 from typing import Dict
 
 
-class Vehicle:
+class RoadTransport:
     def __init__(self, model: str, engine: str, year: str, color: str):
         self.model = model
         self.engine = engine
@@ -32,7 +32,7 @@ class Vehicle:
         }
 
 
-class Motorcyle(Vehicle):
+class Motorcyle(RoadTransport):
     def __init__(self, lever_type: str, model: str, engine: str, year: str, color: str):
         super().__init__(model, engine, year, color)
         self.lever_type = lever_type
@@ -46,7 +46,7 @@ class Motorcyle(Vehicle):
         return base_info
 
 
-class Car(Vehicle):
+class Car(RoadTransport):
     def __init__(self, body: str, model: str, engine: str, year: str, color: str):
         super().__init__(model, engine, year, color)
         self.body = body
