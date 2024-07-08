@@ -50,3 +50,9 @@ O [Polimorfismo](_polymorphism.py) é a habilidade de um programa detectar a cla
 ### Herança
 
 A [Herança](_inheritance.py) é a habilidade de construir novas classes em cima de classes já existentes. Na qual a subclasse herda da classe mãe os seus campos e métodos.
+
+
+#### Referência
+<ul>
+<li><a href="https://refactoring.guru/design-patterns/book">https://refactoring.guru/design-patterns/book</a></li>
+</ul>
