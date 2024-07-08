@@ -10,10 +10,12 @@ pt_BR:
     a funcionalidade adicional dentro da subclasse.
 """
 
-from typing import Dict
+from typing import Dict, List, Union
+
+from _polymorphism import Vehicle
 
 
-class RoadTransport:
+class RoadTransport(Vehicle):
     def __init__(self, model: str, engine: str, year: str, color: str):
         self.model = model
         self.engine = engine
@@ -22,6 +24,9 @@ class RoadTransport:
 
     def start_engine(self) -> str:
         return f"Starting {self.engine} engine ..."
+
+    def get_types_of_fuel(self) -> Union[str, List]:
+        return super().get_types_of_fuel()
 
     def _base_info(self) -> Dict:
         return {
@@ -45,6 +50,9 @@ class Motorcyle(RoadTransport):
         base_info.update({"lever_type": self.lever_type})
         return base_info
 
+    def get_types_of_fuel(self) -> str:
+        return "Gasoline"
+
 
 class Car(RoadTransport):
     def __init__(self, body: str, model: str, engine: str, year: str, color: str):
@@ -55,3 +63,6 @@ class Car(RoadTransport):
         base_info = self._base_info()
         base_info.update({"body": self.body})
         return base_info
+
+    def get_types_of_fuel(self) -> List:
+        return ["Gasoline", "Ethanol"]
